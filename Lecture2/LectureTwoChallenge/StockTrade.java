@@ -1,6 +1,6 @@
 public class StockTrade {
     private String tickerSymbol;
-    private Double tradePrice;
+    private double tradePrice;
 
     StockTrade(String symbol, Double price){
         tickerSymbol = symbol;
@@ -11,7 +11,7 @@ public class StockTrade {
         return tickerSymbol;
     }
 
-    public Double getTradePrice(){
+    public double getTradePrice(){
         return tradePrice;
     }
 
