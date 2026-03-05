@@ -2,7 +2,7 @@ public class MarketTracker {
     public static void main(String[] args){
         String[] stockTicker = {"SOFI", "RIVN", "COIN"};
 
-        Double[] stockPrice = {18.50, 14.20, 250.00};
+        double[] stockPrice = {18.50, 14.20, 250.00};
 
         for (int i = 0; i < stockPrice.length; i++){
             System.out.println(stockTicker[i] + " is currently trading at $" + stockPrice[i]);
