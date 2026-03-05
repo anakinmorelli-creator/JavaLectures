@@ -3,6 +3,6 @@ public class Main {
         Car octane = new Car();
         octane.modelName = "Octane";
 
-        System.out.println("The " + octane.modelName + " starts with " + octane.boostTank.boostAmount + " boost.");
+        System.out.println("The " + octane.modelName + " starts with " + octane.boostTank.getAmount() + " boost.");
     }
 }

@@ -1,3 +1,7 @@
 public class Boost {
-    public int boostAmount = 33;
+    private int boostAmount = 33;
+
+    public int getAmount(){
+        return boostAmount;
+    }
 }
