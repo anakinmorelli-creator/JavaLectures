@@ -1,5 +1,5 @@
 public class Car {
-    public Car octane = new Car();
+    public String modelName;
 
     public Boost boostTank = new Boost();
 }
