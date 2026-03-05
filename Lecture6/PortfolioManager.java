@@ -7,8 +7,8 @@ public class PortfolioManager {
 
         double totalReturn = 0.0;
 
-        for (int i : trade){
-            totalReturn = StockTrade.getEstimatedReturn() + CashSecuredPut.getEstimatedReturn();
+        for (Tradeable i : trade){
+            totalReturn = totalReturn + i.getEstimatedReturn();
         }
 
         System.out.println("The total return is $" + totalReturn);

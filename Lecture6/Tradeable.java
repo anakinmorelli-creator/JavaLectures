@@ -1,3 +1,3 @@
 public interface Tradeable {
-    double getEstimateReturn();
+    double getEstimatedReturn();
 }
