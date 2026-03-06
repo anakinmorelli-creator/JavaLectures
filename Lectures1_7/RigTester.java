@@ -18,7 +18,7 @@ public class RigTester {
         double totalScore = 0.0;
 
         for (Benchmarkable j : myRig){
-            totalScore = j.getScore();
+            totalScore += j.getScore();
         }
 
         System.out.println("Total score: " + totalScore);
